@@ -15,7 +15,14 @@ $(document).ready(function() {
 		total = total + 3;
 		$('.score').text(total);
 	});
-
+	$('.sub1').click(function() {
+		total = total - 1;
+		$('.score').text(total);
+	});
+	$('.reset').click(function() {
+		total = total = 0;
+		$('.score').text(total);
+	});
 
 	$('.compare').click(function() {
 		//alert('hello');

@@ -116,10 +116,10 @@ header {
 
 .top {
     background-image: url("background.jpg");
-    background-size: cover;
+    background-size: 100%;
     width: 100%;
 }
-    
+
 .central-box {
     position: absolute;
     left: 50%;
